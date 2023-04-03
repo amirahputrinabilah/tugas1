@@ -1,0 +1,21 @@
+# contoh kode functional proggraming
+def double(x):
+    return x * 2
+
+numbers = [1, 2, 3, 4]
+doubled_numbers = list(map(double, numbers))
+print(doubled_numbers)
+
+# contoh kode oop
+# Class dalam OOP
+class Animal:
+    def _init_(self, name, species, sound):
+        self.name = name
+        self.species = species
+        self.sound = sound
+
+    def make_sound(self):
+        print(f"{self.name} the {self.species} says {self.sound}!")
+
+cat = Animal("Whiskers", "cat", "meow")
+cat.make_sound()
